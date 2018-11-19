@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "数独", "数独.vbproj", "{D86CFAA3-C2AF-4EC1-A9CB-853E6A8D3933}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D86CFAA3-C2AF-4EC1-A9CB-853E6A8D3933}.Debug|x86.ActiveCfg = Debug|x86
+		{D86CFAA3-C2AF-4EC1-A9CB-853E6A8D3933}.Debug|x86.Build.0 = Debug|x86
+		{D86CFAA3-C2AF-4EC1-A9CB-853E6A8D3933}.Release|x86.ActiveCfg = Release|x86
+		{D86CFAA3-C2AF-4EC1-A9CB-853E6A8D3933}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEBD1D4A-8751-4AAC-A452-9BE26C686D48}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{D86CFAA3-C2AF-4EC1-A9CB-853E6A8D3933}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>数独</RootNamespace>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\数独\v15\.suo" />
+    <None Include=".vs\数独\v15\Browse.VC.db" />
+    <None Include=".vs\数独\v15\ipch\5e17c8bb7ca6dcca.ipch" />
+    <None Include="bac\MSSCCPRJ.SCC" />
+    <None Include="bac\数独.frm" />
+    <None Include="bac\数独.vbp" />
+    <None Include="bac\数独.vbw" />
+    <None Include="Debug\数独.ilk" />
+    <None Include="MSSCCPRJ.SCC" />
+    <None Include="数独.frm" />
+    <None Include="数独.vbw" />
+    <None Include="数独\Debug\pch.obj" />
+    <None Include="数独\Debug\vc141.idb" />
+    <None Include="数独\Debug\数独.log" />
+    <None Include="数独\Debug\数独.obj" />
+    <None Include="数独\Debug\数独.pch" />
+    <None Include="数独\Debug\数独.tlog\CL.command.1.tlog" />
+    <None Include="数独\Debug\数独.tlog\CL.read.1.tlog" />
+    <None Include="数独\Debug\数独.tlog\CL.write.1.tlog" />
+    <None Include="数独\Debug\数独.tlog\link.command.1.tlog" />
+    <None Include="数独\Debug\数独.tlog\link.read.1.tlog" />
+    <None Include="数独\Debug\数独.tlog\link.write.1.tlog" />
+    <None Include="数独\Debug\数独.tlog\数独.lastbuildstate" />
+    <None Include="数独\数独.vcxproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bac\数独.exe" />
+    <Content Include="bac\数独.sln" />
+    <Content Include="Debug\数独.exe" />
+    <Content Include="Debug\数独.pdb" />
+    <Content Include="数独\ConsoleColor.h" />
+    <Content Include="数独\Debug\vc141.pdb" />
+    <Content Include="数独\pch.cpp" />
+    <Content Include="数独\pch.h" />
+    <Content Include="数独\数独.cpp" />
+    <Content Include="数独\数独.vcxproj.filters" />
+    <Content Include="数独\数独.vcxproj.user" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\数独\v15\ipch\AutoPCH\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
